@@ -1,0 +1,504 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+@media screen {
+    body {
+        background-color: pink;
+    }
+}
+
+/* CSS to Design the Main Navbar Section */
+nav {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(51, 48, 54);
+    height: 100px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* CSS to Design the Navbar left Logo Section  */
+.navleft a {
+    margin-left: 120px;
+    padding: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.navright a:hover {
+    background-color: rgb(63, 37, 97);
+    border-radius: 75px;
+    color: yellow;
+}
+
+/* CSS to Design the Main Navbar Right Section  */
+.navright {
+    width: 1000px;
+    padding: 20px;
+}
+
+.navright a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+/* Css to design the Center Intro Section */
+
+.mainCenter {
+    border: 2px solid black;
+    /* height: 100vh; */
+    border: 2px solid black;
+    background-color: black;
+    padding-left: 110px;
+    display: flex;
+    color: white;
+    padding-bottom: 60px;
+}
+
+/* CSS to design the Main Center Left */
+.mainCenterLeft #mainCenter-1 {
+    margin-top: 200px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+}
+
+.mainCenterLeft #mainCenter-2 {
+    margin-top: -30px;
+    font-size: 54px;
+    font-family: cursive;
+    color: red;
+    padding-left: 25px;
+}
+
+#mainCenter-2:hover {
+    transform: scale(1, 1.2);
+}
+
+.mainCenterLeft #mainCenter-3 {
+    margin-top: -50px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+}
+
+.mainCenterLeft #mainCenter-4 {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 650px;
+    padding: 0px 20px;
+    margin-top: -25px;
+}
+
+#mainCenterSocial img {
+    width: 45px;
+    height: 45px;
+    background-color: #f1f1f5;
+    border-radius: 40%;
+    margin-top: -15px;
+    margin: 0px 15px;
+}
+
+/* CSS to design the Main Center Right */
+.mainCenterRight {
+    padding-top: 120px;
+    margin-left: 80px;
+}
+
+.mainCenterRight img {
+    width: 600px;
+    height: 450px;
+    opacity: 0.6;
+}
+
+/* Design Section of More About Us */
+.portfolioMore {
+    background-color: rgb(51, 48, 54);
+    text-align: center;
+}
+
+#moreAboutUs {
+    border: 2px solid red;
+    padding: 15px;
+    display: inline-block;
+    font-size: 34px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+
+#moreAboutUs:hover {
+    border: 2px solid yellow;
+    transform: scale(1, 1.1);
+}
+
+/* CSS Code for Footer */
+footer {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 130px;
+}
+
+/* Css for the Home Section */
+.homePortfolioCenter {
+    display: flex;
+}
+
+.homePortfolioCenter-img {
+    padding: 90px;
+    background-color: rgb(234, 133, 133);
+}
+
+.homePortfolioCenter-img img {
+    width: auto;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.homePortfolioCenter-Intro {
+    background-color: rgb(234, 131, 131);
+    width: fit-content;
+    color: black;
+    font-family: cursive;
+    width: 1200px;
+}
+
+.homePortfolioCenter-1 {
+    color: yellow;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.homePortfolioCenter-2 {
+    padding: 10px 40px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.homePortfolioCenter-3 {
+    display: flex;
+    padding: 0px 38px;
+    font-size: 24px;
+    color: brown;
+}
+
+#homeSpan1, #homeSpan2, #homeSpan3 {
+    padding: 20px;
+}
+
+/* Css Style for the Project Section */
+.homeProjects {
+    background-color: rgb(178, 142, 211);
+    text-align: center;
+}
+
+.homeProjects #homeProjects-1 {
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 35px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+/* Css style to show my Projects */
+
+.homeProjectsGlance {
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+
+.homeProjectsGlanceLeft, .homeProjectsGlanceRight {
+    border: 2px solid black;
+    width: 300px;
+    padding: 20px 30px;
+    font-size: 21px;
+    border-radius: 40px;
+    background-color: white;
+    margin: 20px;
+}
+
+#homeProjectsGlanceRight-1, #homeProjectsGlanceLeft-1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+#homeProjectsGlanceRight-1:hover, #homeProjectsGlanceLeft-1:hover {
+    color: red;
+    font-family: cursive;
+    flex-wrap: wrap;
+    transform: scale(1, 1.2);
+}
+
+/* Css for the Resume */
+.buildResume {
+    background-color: black;
+}
+
+.resumeCenter {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: red;
+    padding-top: 10px;
+}
+
+.resumeMainCenter {
+    border: 1.8px solid black;
+    margin: 0px 130px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: rgb(236, 200, 200);
+    display: flex;
+}
+
+.resumeCenterleft, .resumeCenterRight {
+    padding: 0px 30px;
+}
+
+#summary, #summaryProjects, #summaryEducation {
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#summaryIntro {
+    color: blue;
+}
+
+#downloadResume {
+    padding: 14px 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 19px;
+    box-shadow: 2px 4px;
+}
+
+#downloadResume:active {
+    box-shadow: 4px 0px 0px goldenrod;
+    transform: translateX(3px);
+    transform: translateY(4px);
+
+}
+
+/* CSS fot the Resume Thoughts */
+.resumeThoughts {
+    width: 1100px;
+    margin: 0px 170px;
+    font-size: 41px;
+    padding: 22px 42px;
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+/* CSS for the Portfolio Page */
+.portfolio-1 {
+    display: flex;
+}
+
+.portfolioPlus {
+    text-align: center;
+    font-family: cursive;
+    font-size: 41px;
+    padding: 15px 45px;
+}
+
+
+#portfolioPlus-2 {
+    margin-top: 75px;
+    font-size: 24px;
+    padding: 0px 20px;
+}
+
+.portfolioWeb-Img img {
+    width: 500px;
+    height: auto;
+    padding: 10px 50px;
+}
+
+.portfolioTrends {
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px 0px;
+    background-color: orchid;
+}
+
+.portfolioTrends-1 {
+    background-image: url(/Images/bgg.avif);
+    height: 70vh;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.portfolioTrendsPoints {
+    border: 2px solid black;
+    margin: 0px 250px;
+    padding: 30px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.portfolioTrendsPoints h3:hover {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.portfolioTrendsPoints h3:active {
+    transform: translateX(20px);
+    transform: translateY(7px);
+    transition-duration: 14ms;
+}
+
+.portfolioStrong {
+    font-size: 44px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: red;
+    font-family: cursive;
+}
+
+.portfolioInsight {
+    text-align: center;
+    font-size: 31px;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+}
+
+.portfoliophotos-1 img,
+.portfoliophotos-2 img,
+.portfoliophotos-3 img {
+    width: 300px;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    height: auto;
+    padding: 2px;
+}
+
+.portfolioMorePics {
+    font-size: 45px;
+    color: white;
+    background-color: black;
+}
+
+.portfolioArticle {
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 400px;
+    color: white;
+    background-color: black;
+}
+
+.portfolioArticle h3:hover {
+    color: red;
+}
+
+.portfolioArticle h2:hover {
+    color: blue;
+}
+
+.portfolioArticle h1:hover {
+    color: yellow;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+/* CSS styling for the Contact Portion */
+.locationContactReach {
+    font-size: 54px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px 0px;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(135, 131, 131);
+}
+
+.locationResponse {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.locationReach {
+    width: 40%;
+    margin: 40px 5px;
+    padding: 20px 85px;
+}
+.locationReach h2 a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.locationFeedback {
+    margin: 40px 5px;
+    padding: 20px 85px;
+}
+
+#personName1, #personEmail {
+    width: 450px;
+    height: 60px;
+    font-size: 24px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+#personFeedback {
+    width: 450px;
+    height: 160px;
+    font-size: 24px;
+    margin: 20px;
+    border-radius: 14px;
+
+}
+#personName1:active, #personEmail:active, #personFeedback:active {
+    background-color: rgb(210, 180, 105);
+}
+#contactButton {
+    padding: 12px 45px;
+    background-color: rgb(203, 203, 84);
+    margin: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#contactButton:active {
+    transform: translateX(4px);
+    transform: translateY(-12px);
+    background-color: red;
+}
+/* CSS for home footer aticle */
+.homeFront {
+    display: flex;
+}
+.homefrontImg img{
+    width: 800px;
+}
+.homeFrontArticle {
+    font-size: 35px;
+    padding: 48px;
+    background-color: rgb(124, 191, 191);
+}
